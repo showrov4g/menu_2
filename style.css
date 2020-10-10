@@ -1,0 +1,58 @@
+body{
+	margin: 0;
+	padding:0;
+}
+.main-menu{
+	background: #8E44AB;
+}
+.main-menu >ul{
+	padding:0;
+	margin: 0;
+}
+.main-menu >ul >li{
+	display: inline;
+	position: relative;
+	transition-duration: 0.5s;
+}
+.main-menu >ul >li a{
+	padding: 10px 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 20px;
+	color: #fff;
+	display: inline-block;
+}
+.main-menu >ul >li a:hover{
+	background: #F1C40F;
+}
+.main-menu >ul >li ul li{
+	display: block;
+}
+.main-menu >ul >li >ul{
+	position: absolute;
+	top:170%;
+	left: 0;
+	background: #27ae60;
+	width: 350px;
+	margin:0;
+	padding:0;
+	display: none;
+}
+.main-menu >ul >li:hover >ul{
+	display: block;
+}
+.main-menu >ul >li ul li a{
+	display: block;
+}
+.main-menu > ul > li > ul > li ul {
+    position: absolute;
+    top: 40%;
+    right: -327px;
+    background: red;
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+.main-menu > ul > li > ul > li:hover >ul{
+	display: block;
+}
